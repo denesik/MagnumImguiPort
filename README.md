@@ -1,3 +1,0 @@
-# MagnumImguiPort
-The mit license
-

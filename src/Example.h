@@ -26,8 +26,11 @@
 #include <Magnum/Platform/Sdl2Application.h>
 #include <Magnum/DefaultFramebuffer.h>
 
-#include "MagnumImGui.h"
-#include "../imgui/imgui.h"
+// To use installed version of MagnumImGui change the following two lines to:
+// #include <MagnumImGui/MagnumImGui.h>
+// #include <MagnumImGui/imgui.h>
+#include "MagnumImGui.h"     
+#include "../imgui/imgui.h"  
 
 using namespace Magnum;
 
