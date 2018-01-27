@@ -19,7 +19,7 @@
 // THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-#include "MagnumImgui.h"
+#include "MagnumImGui.h"
 
 #include <Magnum/Context.h>
 #include <Magnum/Version.h>
@@ -30,7 +30,7 @@
 #include <Magnum/DefaultFramebuffer.h>
 #include <Magnum/Renderer.h>
 
-#include "imgui/imgui.h"
+#include "../imgui/imgui.h"
 
 using namespace Magnum;
 
@@ -56,7 +56,7 @@ void MagnumImgui::init()
   io.KeyMap[ImGuiKey_X] = ImGuiKey_X;
   io.KeyMap[ImGuiKey_Y] = ImGuiKey_Y;
   io.KeyMap[ImGuiKey_Z] = ImGuiKey_Z;
-
+  
 //   io.SetClipboardTextFn = ;
 //   io.GetClipboardTextFn = ;
 

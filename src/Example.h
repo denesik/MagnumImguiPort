@@ -26,8 +26,8 @@
 #include <Magnum/Platform/Sdl2Application.h>
 #include <Magnum/DefaultFramebuffer.h>
 
-#include "MagnumImgui.h"
-#include "imgui/imgui.h"
+#include "MagnumImGui.h"
+#include "../imgui/imgui.h"
 
 using namespace Magnum;
 
