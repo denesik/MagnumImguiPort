@@ -32,3 +32,9 @@
    #+END_SRC
 
 *** TODO Explain usage in more detail   
+
+* Example
+  
+  Run =build/src/Example= to see what =MagnumImGui= can do.
+
+  [[file:img.png]]
