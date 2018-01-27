@@ -22,7 +22,7 @@
 #include "Example.h"
 
 #include <Magnum/Renderer.h>
-#include <Magnum/Color.h>
+#include <Magnum/Math/Color.h>
 
 Example::Example(const Arguments & arguments)
 	: Platform::Application{ arguments, Configuration{}.setTitle("Magnum Imgui port").setWindowFlags(Configuration::WindowFlag::Resizable) }
@@ -62,7 +62,8 @@ void Example::drawEvent()
   if (show_test_window)
   {
     ImGui::SetNextWindowPos(ImVec2(650, 20), ImGuiSetCond_FirstUseEver);
-    ImGui::ShowTestWindow(&show_test_window);
+    //ImGui::ShowTestWindow(&show_test_window);
+    ImGui::ShowTestWindow();
   }
 
   mMagnumImgui.drawFrame();
